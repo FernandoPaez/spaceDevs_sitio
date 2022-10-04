@@ -132,6 +132,10 @@ li.ico {
     height: 500px;
 }
 
+.presentacion .col1presentacion h1 {
+    font-size: 48px;
+}
+
 /* Boton */
 .presentacion .col1presentacion .texto button {
     border: none;
@@ -147,20 +151,99 @@ li.ico {
     cursor: pointer;
 
 }
-.presentacion.col2presentacion{
+
+.presentacion.col2presentacion {
     height: 300px;
 }
+
 .presentacion .col2presentacion .img img {
     height: 600px;
     transform: translateX(-250px);
-   margin-top: 80px;
+    margin-top: 80px;
 
 
 }
 
 .presentacion .col2presentacion .fondo {
 
-    height: 400px;
+    height: 300px;
     border-left: 220px solid transparent;
     border-bottom: 600px solid #DEE1E6;
+    z-index: 1;
+}
+
+/* Servicios */
+.servicios {
+    height: 600px;
+    width: 100%;
+    background-color: #151A28;
+
+}
+
+.servicios .fil1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    padding: 6em;
+  
+    z-index: 10;
+
+}
+
+.servicios .fil1 .cuadrado {
+    height: 260px;
+    width: 280px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 5%;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.servicios .fil1 .cuadrado .textcuadrado{
+    margin-left: 1.5em;
+}
+
+.servicios .fil1 .cuadrado h3 {
+    margin-bottom: 1em;
+    
+    color: #22B6D5;
+}
+
+.servicios .fil1 .cuadrado p {
+    margin-bottom: 1em;
+    
+}
+
+.servicios .fil1 .cuadrado .circulo {
+    border-radius: 50%;
+    background-color: #22B6D5;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    align-items: center;
+    margin-top: 1em;
+    
+    
+
+}
+
+.servicios .fil1 .cuadrado i {
+    width: 60px;
+    color: whitesmoke;
+    padding: 5px;
+    transform: translateX(5px);
+    
+
+}
+
+.servicios .fil2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    transform: translateY(-50px);
+    
 }
