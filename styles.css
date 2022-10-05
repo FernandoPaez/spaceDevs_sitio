@@ -320,33 +320,102 @@ li.ico {
     background-color: #1E2738;
 }
 
-.recuadros .fila1container{
-    
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 2em;
-   gap: 2em;
-     
+.recuadrocuadrado {
+    padding: 1em;
 }
 
-.recuadros .fila2container{
-    
+
+
+.iconimg {
+    height: 50px;
+    width: auto;
+    transform: translateY(15px);
+}
+
+.recuadrocuadrado .cuadradoserv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.recuadrocuadrado .cuadradoserv h4 {
+    transform: translateY(10px);
+
+}
+
+.recuadros .fila1container {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2em;
-    gap: 2em;
-      
- }
+    padding-top: 6em;
+    gap: 3em;
+
+}
+
+.recuadros .fila2container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    gap: 3em;
+
+}
 
 .recuadros .recuadrocuadrado {
     height: 225px;
     width: 225px;
-    background-color: rgba(222,225,230,0.6);
+    background-color: #DEE1E6;
     border-radius: 5%;
-    
-   
-   
 
+
+
+
+}
+
+/* Recuadro Inferior */
+.cuadroinferior {
+    height: 195px;
+    background-color: #151A28;
+    color: whitesmoke;
+    transform: translateY(-20px);
+}
+
+.cuadroinferior .fila1recuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 10em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cuadroinferior .fila1recuadro h1 {
+    transform: translateY(25px);
+}
+
+/* recuadro estadisticas */
+.recestadisticas {
+    height: 395px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    display: grid;
+
+    grid-template-columns: 30% 70%;
+}
+
+
+.recestadisticas .col1estadisticas p {
+    margin-left: 8em;
+    margin-top: 4em;
+}
+
+
+.imgestadisticas {
+    height: 700px;
+    transform: translateX(500);
+    transform: translateY(-180px);
 }
