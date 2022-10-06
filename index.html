@@ -110,10 +110,14 @@
 
         <!-- Consulta -->
         <div class="consulta">
-            <div class="col1consulta"><h1>¿Necesitas Asesoramiento?</h1>
-            <p>Respondemos todas las dudas</p></div>
+            <div class="col1consulta">
+                <h1>¿Necesitas Asesoramiento?</h1>
+                <p>Respondemos todas las dudas</p>
+            </div>
             <div class="col2consulta">
-                <div class="recconsulta"><h3>Enviar consulta</h3></div>
+                <div class="recconsulta">
+                    <h3>Enviar consulta</h3>
+                </div>
             </div>
         </div>
 
@@ -130,107 +134,218 @@
         <div class="recuadros">
             <div class="fila1container">
 
-            <div class="recuadrocuadrado">
-                <div class="cuadradoserv">
-                    
+                <div class="recuadrocuadrado">
+                    <div class="cuadradoserv">
+
                         <img src="images/busqueda.png" class="iconimg" alt="">
-                    
-                    <h4>Aplicaciones Web</h4>
-                    <p>Aplicaciones que funcionan a traves del navegador y se actualizan en tiempo real.</p>
-                    
+
+                        <h4>Aplicaciones Web</h4>
+                        <p>Aplicaciones que funcionan a traves del navegador y se actualizan en tiempo real.</p>
+
+                    </div>
+
                 </div>
 
-            </div>
+                <div class="recuadrocuadrado">
+                    <div class="cuadradoserv">
 
-            <div class="recuadrocuadrado">
-                <div class="cuadradoserv">
-                    
                         <img src="images/pc escritorio.png" class="iconimg" alt="">
-                    
-                    <h4>Aplicaciones de Escritorio</h4>
-                    <p>Aplicaciones que corren desde un entorno local.</p>
-                    
+
+                        <h4>Aplicaciones de Escritorio</h4>
+                        <p>Aplicaciones que corren desde un entorno local.</p>
+
+                    </div>
+
                 </div>
 
-            </div>
+                <div class="recuadrocuadrado">
+                    <div class="cuadradoserv">
 
-            <div class="recuadrocuadrado">
-                <div class="cuadradoserv">
-                    
-                    <img src="images/paginas web.png" class="iconimg" alt="">
-                    
-                    <h4>Paginas Web</h4>
-                    <p>Atendemos las necesidades de distintos tipos de negocios y organizaciones.</p>
-                    
+                        <img src="images/paginas web.png" class="iconimg" alt="">
+
+                        <h4>Paginas Web</h4>
+                        <p>Atendemos las necesidades de distintos tipos de negocios y organizaciones.</p>
+
+                    </div>
+
                 </div>
-
-            </div>
             </div>
 
             <div class="fila2container">
 
-            <div class="recuadrocuadrado">
-                <div class="cuadradoserv">
-                    
-                    <img src="images/smart phone.png" class="iconimg" alt="">
-                    
-                    <h4>Native App</h4>
-                    <p>IOS / Android</p>
-                    
+                <div class="recuadrocuadrado">
+                    <div class="cuadradoserv">
+
+                        <img src="images/smart phone.png" class="iconimg" alt="">
+
+                        <h4>Native App</h4>
+                        <p>IOS / Android</p>
+
+                    </div>
+
+                </div>
+
+                <div class="recuadrocuadrado">
+                    <div class="cuadradoserv">
+
+                        <img src="images/servers.png" class="iconimg" alt="">
+
+                        <h4>Servidores</h4>
+                        <p>Servidores con planes a medida.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="recuadrocuadrado">
+                    <div class="cuadradoserv">
+
+                        <img src="images/base de datos.png" class="iconimg" alt="">
+
+                        <h4>Bases de Datos</h4>
+                        <p>Informacion 100% segura y resguardada.</p>
+
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="recuadrocuadrado">
-                <div class="cuadradoserv">
-                    
-                    <img src="images/servers.png" class="iconimg" alt="">
-                    
-                    <h4>Servidores</h4>
-                    <p>Servidores con planes a medida.</p>
-                    
+
+
+        </div>
+
+        <div class="cuadroinferior">
+            <div class="fila1recuadro">
+                <h1>Reportes y Estadisticas</h1>
+                <p>A medida de su necesidad.</p>
+            </div>
+        </div>
+
+        <!-- recuadro estadisticas -->
+        <div class="recestadisticas">
+            <div class="col1estadisticas">
+                <p>A medida de su <br>
+                    necesidad A medida de su <br>
+                    necesidad A medida de su <br>
+                    necesidad A medida de su <br>
+                    necesidad </p>
+
+            </div>
+            <div class="col2estadisticas">
+                <img src="images/estadisticas.png" class="imgestadisticas" alt="">
+            </div>
+        </div>
+
+        <div class="recformulario">
+            <div class="col1formulario">
+                <div class="boxformulario">
+                    <form action="mensajes.php" method="POST" enctype="multipart/form-data" class="form">
+
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="Ingrese nombre" required>
+
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico"
+                            required>
+
+
+                        <label for="comment">Mensaje</label>
+                        <textarea id="comment" name="comment" placeholder="Escribe tu consulta" style="height:200px"
+                            required></textarea>
+
+
+                        <input name="guardar" type="submit" id="submit" class="submit" value="Enviar">
+
+                    </form>
+
+                </div>
+            </div>
+            <div class="col2formulario">
+                <div class="textcontacto">
+                    <h3>Si queres contactarte con <br>
+                        nosotros llamanos o llena <br>
+                        el formulario.</h3>
+                    <div class="icontext"><i class="fa-brands fa-whatsapp"></i>
+                        <h4> +54 9 3512228026 </h4>
+                    </div>
+                    <div class="icontext"><i class="fa-brands fa-whatsapp"></i>
+                        <h4> +54 9 3512228026 </h4>
+                    </div>
+                    <div class="icontext"><i class="fa-regular fa-envelope"></i>
+                        <h4> info@spacedevs.ar</h4>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="fila1foot">
+                <img src="images/Logo space.png" alt="">
+
+                <div class="seccion">
+                    <div>
+                        <h4>Contacto</h4>
+                        <a href="#">Formas de Pago</a>
+                    </div>
+
+                    <div>
+                        <h4>Web</h4>
+                        <a href="#">Planes</a>
+                        <a href="#">Hosting</a>
+                    </div>
+
+                    <div>
+                        <h4>Apps</h4>
+                        <a href="#">Mobile</a>
+                        <a href="#">App Web</a>
+                        <a href="#">App Escritorio</a>
+                    </div>
+
+                    <div>
+                        <h4>Mi Cuenta</h4>
+                        <a href="#">Registrarme</a>
+                        <a href="#">Login</a>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="fila2foot">
+                <div>
+                    <h2>Suscribe</h2>
+                    <form action="">
+                        <input type="text" placeholder="Enter your Email">
+                        <button type="submit">Suscribe</button>
+                    </form>
                 </div>
 
             </div>
 
-            <div class="recuadrocuadrado">
-                <div class="cuadradoserv">
-                    
-                    <img src="images/base de datos.png" class="iconimg" alt="">
-                    
-                    <h4>Bases de Datos</h4>
-                    <p>Informacion 100% segura y resguardada.</p>
-                    
-                </div>
+            <hr>
 
+
+            <div class="fila3foot">
+                <div class="redes">
+                    <span class="fb"><i class="fa-brands fa-facebook"></i></span>
+                    <span class="tw"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="in"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="li"><i class="fa-brands fa-linkedin"></i></span>
+                    <span class="yt"><i class="fa-brands fa-youtube"></i></span>
+                </div>
+                <div class="ubicacion">
+                    <h4> Córdoba - Argentina</h4>
+                </div>
             </div>
 
-        </div>
 
-
-        
-    </div>
-
-    <div class="cuadroinferior">
-        <div class="fila1recuadro">
-            <h1>Reportes y Estadisticas</h1>
-            <p>A medida de su necesidad.</p>
-        </div>
-    </div>
-
-    <!-- recuadro estadisticas -->
-    <div class="recestadisticas">
-        <div class="col1estadisticas">
-            <p>A medida de su <br>
-                necesidad A medida de su <br> 
-                necesidad A medida de su <br>
-                necesidad A medida de su <br>
-                necesidad  </p>
-        </div>
-        <div class="col2estadisticas">
-            <img src="images/estadisticas.png" class="imgestadisticas" alt="">
-        </div>
-    </div>
+        </footer>
 
     </div>
 
