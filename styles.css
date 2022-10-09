@@ -5,13 +5,7 @@
 
 }
 
-.header {
 
-    background-color: #2F2E2F;
-    height: 3vh;
-
-
-}
 
 body {
     font-size: 16px;
@@ -264,9 +258,7 @@ li.ico {
 
 }
 
-.consulta h1 {
-    font-size: 36px;
-}
+
 
 .consulta p {
     transform: translateY(-30px);
@@ -274,7 +266,7 @@ li.ico {
 
 .consulta .col1consulta {
     display: grid;
-
+    align-items: center;
     justify-content: center;
 }
 
@@ -300,7 +292,7 @@ li.ico {
 .fondo2 .textofrecemos {
     display: grid;
 
-    padding-left: 6em;
+    padding-left: 15%;
 }
 
 .fondo2 h1 {
@@ -436,6 +428,36 @@ li.ico {
 
 .recformulario .col1formulario {
     padding: 2em;
+    font-size: 10px;
+    color: whitesmoke;
+    ;
+}
+
+.recformulario .col1formulario .form{
+    padding: 1em;
+    transform: translateY(-20px);
+    
+}
+
+.recformulario .col1formulario .imput {
+    height: 30px;
+    background-color:#1E2738 ;
+    border-bottom: #DEE1E6 solid 1px;
+    
+}
+.recformulario .col1formulario label {
+    font-size: 14px;
+    
+}
+
+.recformulario .col1formulario .mensaje {
+    padding-top: 10px;
+    height: 20px;
+    background-color:#1E2738 ;
+    border-bottom: #DEE1E6 solid 1px;
+    border-block: #DEE1E6 solid 1px;
+    
+    
 }
 
 
@@ -474,6 +496,21 @@ li.ico {
     display: flex;
     flex-direction: column;
 }
+
+.recformulario .col1formulario .boxformulario{
+    font-size: 20px;
+}
+
+.recformulario .col1formulario .boxformulario .submit {
+    color: whitesmoke;
+    background-color: #35B087;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 2em;
+    border: none;
+    transform: translateY(-30px);
+}
+
 
 /* footer */
 .footer {
@@ -516,7 +553,12 @@ li.ico {
     transform: translateY(-10px);
 }
 
- hr {
+.footer .fila2foot h2 {
+    transform: translateY(10px);
+    color: whitesmoke;
+}
+
+hr {
     width: 80%;
     height: 1px;
     background-color: whitesmoke;
@@ -536,6 +578,12 @@ li.ico {
     color: #35B087;
     font-size: 20px;
 }
+
+.footer .fila3foot .redes span {
+    padding: 5px;
+}
+
+
 
 .footer .fila3foot .ubicacion {
     color: whitesmoke;

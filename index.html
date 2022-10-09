@@ -83,9 +83,9 @@
                 <div class="cuadrado">
                     <div class="textcuadrado">
                         <div class="circulo">
-                            <i class="fa-solid fa-code"></i>
+                            <i class="fa-solid fa-laptop-code"></i>
                         </div>
-                        <h4>Desarrollos a medida</h4>
+                        <h4>Aplicaciones Web</h4>
                         <p>Si la solucion al problema es un sistema informatico o una aplicacion a medida.</p>
                         <h3>Mas informacion.</h3>
                     </div>
@@ -93,9 +93,9 @@
                 <div class="cuadrado">
                     <div class="textcuadrado">
                         <div class="circulo">
-                            <i class="fa-solid fa-code"></i>
+                            <i class="fa-solid fa-window-restore"></i>
                         </div>
-                        <h4>Desarrollos a medida</h4>
+                        <h4>Aplicaciones de Escritorio</h4>
                         <p>Si la solucion al problema es un sistema informatico o una aplicacion a medida.</p>
                         <h3>Mas informacion.</h3>
                     </div>
@@ -116,7 +116,7 @@
             </div>
             <div class="col2consulta">
                 <div class="recconsulta">
-                    <h3>Enviar consulta</h3>
+                    <a href="#formulario"><h3> Enviar Consulta</h3></a>
                 </div>
             </div>
         </div>
@@ -237,24 +237,24 @@
             </div>
         </div>
 
-        <div class="recformulario">
+        <div class="recformulario" ><a name="formulario"></a>
             <div class="col1formulario">
                 <div class="boxformulario">
                     <form action="mensajes.php" method="POST" enctype="multipart/form-data" class="form">
 
                         <label for="name">Nombre</label>
-                        <input type="text" id="name" name="name" placeholder="Ingrese nombre" required>
+                        <input class="imput" type="text" id="name" name="name" placeholder="Ingrese nombre" required>
 
                         <label for="telefono">Teléfono</label>
-                        <input type="text" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required>
+                        <input class="imput" type="text" id="telefono" name="telefono" placeholder="Ingrese su teléfono" required>
 
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico"
+                        <input class="imput" type="email" id="email" name="email" placeholder="Ingrese su correo electrónico"
                             required>
 
 
                         <label for="comment">Mensaje</label>
-                        <textarea id="comment" name="comment" placeholder="Escribe tu consulta" style="height:200px"
+                        <textarea class="mensaje" id="comment" name="comment" placeholder="Escribe tu consulta" style="height:200px"
                             required></textarea>
 
 
@@ -333,8 +333,6 @@
 
             <div class="fila3foot">
                 <div class="redes">
-                    <span class="fb"><i class="fa-brands fa-facebook"></i></span>
-                    <span class="tw"><i class="fa-brands fa-twitter"></i></span>
                     <span class="in"><i class="fa-brands fa-instagram"></i></span>
                     <span class="li"><i class="fa-brands fa-linkedin"></i></span>
                     <span class="yt"><i class="fa-brands fa-youtube"></i></span>
