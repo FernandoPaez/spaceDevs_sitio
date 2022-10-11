@@ -758,7 +758,7 @@ hr {
 
 
 .pagos {
-    height: 415px;
+    height: 450px;
     display: grid;
     grid-template-columns: 35% 65%;
     font-family: 'Bebas Neue', cursive;
@@ -783,8 +783,9 @@ hr {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 8em;
+    margin-top: 6em;
     margin-left: 30%;
+    width: 350px;
 }
 
 .pagos .col2pagos {
@@ -796,9 +797,9 @@ hr {
 
 .pagos .fondopagos {
     width: 100%;
-    height: 400px;
+    height: 350px;
     border-left: 200px solid transparent;
-    border-bottom: 700px solid #DEE1E6;
+    border-bottom: 450px solid #DEE1E6;
     z-index:1;
 }
 
@@ -818,7 +819,7 @@ hr {
     z-index: 10;
     display: flex;
     justify-content:flex-start;
-    align-items:;
+    
     padding-left: 10%;
     color: whitesmoke;
 }
