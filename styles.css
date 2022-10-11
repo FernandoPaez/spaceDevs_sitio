@@ -65,7 +65,7 @@ ul {
     height: 25px;
     margin-right: 4px;
     cursor: pointer;
-    transition: all 0, 3s;
+    transition: all 0.3s;
     background-color: #929392;
     width: 135px;
     font-size: 18px;
@@ -271,8 +271,8 @@ li.ico {
 }
 
 .consulta .recconsulta {
-    height: 75px;
-    width: 350px;
+    height: 65px;
+    width: 320px;
     background-color: #64BFB0;
     border-radius: 35px;
     display: flex;
@@ -280,6 +280,12 @@ li.ico {
     align-items: center;
     color: whitesmoke;
     font-size: 24px;
+}
+
+.consulta .recconsulta:hover {
+
+    background-color: black;
+    transition: all 0.5s;
 }
 
 /* Que ofrecemos */
@@ -362,10 +368,13 @@ li.ico {
     width: 225px;
     background-color: #DEE1E6;
     border-radius: 5%;
+}
 
-
-
-
+.recuadros .recuadrocuadrado:hover {
+    height: 230px;
+    width: 230px;
+    background-color: #f8fbff;
+    transition: all 0.5s;
 }
 
 /* Recuadro Inferior */
@@ -402,8 +411,9 @@ li.ico {
 
 
 .recestadisticas .col1estadisticas p {
-    margin-left: 8em;
+    margin-left: 35%;
     margin-top: 4em;
+    font-size: 16px;
 }
 
 
@@ -418,51 +428,54 @@ li.ico {
     height: 570px;
     width: 100%;
     background-color: #151A28;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
     display: flex;
     justify-content: center;
     padding: 2em;
-
 }
 
 .recformulario .col1formulario {
-    padding: 2em;
+    padding: 4em;
     font-size: 10px;
     color: whitesmoke;
-    ;
+    transform: translateX(-5%);
+
+
 }
 
-.recformulario .col1formulario .form{
+.recformulario .col1formulario .form {
     padding: 1em;
     transform: translateY(-20px);
-    
+
 }
 
 .recformulario .col1formulario .imput {
     height: 30px;
-    background-color:#1E2738 ;
+
+    background-color: #1E2738;
     border-bottom: #DEE1E6 solid 1px;
-    
+
+
 }
+
 .recformulario .col1formulario label {
     font-size: 14px;
-    
+
 }
 
 .recformulario .col1formulario .mensaje {
     padding-top: 10px;
     height: 20px;
-    background-color:#1E2738 ;
+    background-color: #1E2738;
     border-bottom: #DEE1E6 solid 1px;
-    border-block: #DEE1E6 solid 1px;
-    
-    
+
+
+
 }
 
 
 .recformulario .col2formulario {
-    padding: 2em;
+    padding: 4em;
     display: flex;
     color: whitesmoke;
     justify-content: center;
@@ -497,7 +510,7 @@ li.ico {
     flex-direction: column;
 }
 
-.recformulario .col1formulario .boxformulario{
+.recformulario .col1formulario .boxformulario {
     font-size: 20px;
 }
 
@@ -589,4 +602,223 @@ hr {
     color: whitesmoke;
     font-size: 16px;
 
+}
+
+
+/* Pagina Apps */
+.introduccion {
+    height: 375px;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.marcointroduccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5em;
+    padding-left: 40%;
+}
+
+.fondoapps {
+
+    border-left: 200px solid transparent;
+    border-bottom: 950px solid #DEE1E6;
+    z-index: 1;
+}
+
+/* cuadrados web */
+
+.recuadrosweb {
+    height: 615px;
+
+
+}
+
+.recuadrosweb .circuloweb {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background-color: rgba(254, 248, 248, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(15px);
+
+
+
+}
+
+.recuadrosweb .fila1web {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.cuadradoweb {
+    height: 215px;
+    width: 215px;
+    background-color: #3A3A44;
+    color: whitesmoke;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadradoweb:hover {
+    height: 225px;
+    width: 225px;
+    transition: all 0.5s;
+}
+
+.cuadradoweb p {
+    text-align: center;
+    color: #64BFB0;
+
+}
+
+.cuadradoweb h5 {
+    transform: translateY(25px);
+    text-align: center;
+
+}
+
+.cuadradoweb .iconweb {
+    height: 70px;
+    width: auto;
+}
+
+/* planes de pagopagina app */
+
+.planes {
+    font-family: 'Bebas Neue', cursive;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    background-color: #DEE1E6;
+    padding-top: -2em;
+    transform: translateY(70px);
+
+}
+
+.planes .fila1planes {
+    padding-left: 20%;
+    height: 50%;
+    transform: translateY(-25px);
+
+}
+
+.pconsulta {
+    height: 50px;
+    width: 300px;
+    background-color: #64BFB0;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.pconsulta:hover {
+
+    background-color: black;
+    color: whitesmoke;
+    transition: all 0.5s;
+}
+
+.planes .fila2planes {
+
+    display: flex;
+    padding-top: 5%;
+    padding-left: 20%;
+    align-items: center;
+    background-color: #929392;
+    height: 200px;
+    padding-bottom: 5%;
+    color: whitesmoke;
+
+
+}
+
+
+.planes .fila2planes .col2planes {
+    padding-left: 30%;
+}
+
+
+/* Pagina de pagos */
+
+
+.pagos {
+    height: 415px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    font-family: 'Bebas Neue', cursive;
+    ;
+
+}
+
+
+
+.col2pagos img {
+    height: 50px;
+}
+
+.pagos .col1pagos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pagos .col1pagos .marcopagos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 8em;
+    margin-left: 30%;
+}
+
+.pagos .col2pagos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 2em;
+}
+
+.pagos .fondopagos {
+    width: 100%;
+    height: 400px;
+    border-left: 200px solid transparent;
+    border-bottom: 700px solid #DEE1E6;
+    z-index:1;
+}
+
+.marcoformapagos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transform: translateY(250px);
+    gap: 1em;
+
+}
+
+/* transferencias */
+.transferencias{
+    height: 180px;
+    background-color: #151A28;
+    z-index: 10;
+    display: flex;
+    justify-content:flex-start;
+    align-items:;
+    padding-left: 10%;
+    color: whitesmoke;
 }
