@@ -121,12 +121,14 @@ li.ico {
 }
 
 .presentacion .col1presentacion {
+    width: 80%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: 90px;
     margin-top: 90px;
     height: 500px;
+
 }
 
 .presentacion .col1presentacion h1 {
@@ -151,6 +153,7 @@ li.ico {
 
 .presentacion.col2presentacion {
     height: 300px;
+
 }
 
 .presentacion .col2presentacion .img img {
@@ -371,7 +374,7 @@ li.ico {
 }
 
 .recuadros .recuadrocuadrado:hover {
-   
+
     background-color: #f8fbff;
     transition: all 0.5s;
 }
@@ -799,7 +802,7 @@ hr {
     height: 350px;
     border-left: 200px solid transparent;
     border-bottom: 450px solid #DEE1E6;
-    z-index:1;
+    z-index: 1;
 }
 
 .marcoformapagos {
@@ -812,13 +815,13 @@ hr {
 }
 
 /* transferencias */
-.transferencias{
+.transferencias {
     height: 180px;
     background-color: #151A28;
     z-index: 10;
     display: flex;
-    justify-content:flex-start;
-    
+    justify-content: flex-start;
+
     padding-left: 10%;
     color: whitesmoke;
 }
@@ -833,19 +836,21 @@ hr {
         width: 100%;
 
     }
-    .nav-main{
+
+    .nav-main {
         width: 100%;
     }
+
     /* Logo */
     .nav-main img {
         height: 50%;
         margin-left: 0px;
         padding: 0px 15px 10px 5px;
     }
-   
-     .nav-main .nav-menu{
+
+    .nav-main .nav-menu {
         display: none;
-    } 
+    }
 
     /* Boton btn */
 
@@ -865,9 +870,10 @@ hr {
         left: -250px;
     }
 
-    .nav-main .nav-menu li{
+    .nav-main .nav-menu li {
         width: 200px;
     }
+
     .nav-main ul.nav-menu.show {
         left: 0px;
         transition: all 1s;
@@ -877,16 +883,17 @@ hr {
         display: block;
     }
 
-    .nav-main li{
+    .nav-main li {
         background-color: #151A28;
         height: 50px;
         border-bottom: 1px solid black;
-      
+
     }
+
     .nav-main li a {
-        color:white;
-        font-size: 16px;
-       
+        color: white;
+        font-size: 14px;
+
     }
 
     .nav-main ul li:hover {
@@ -900,8 +907,47 @@ hr {
 
 
     .menu-btn i {
-        display:block;
+        display: block;
         color: whitesmoke;
         padding: 0.5em;
     }
+
+    .presentacion {
+        height: 950px;
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .presentacion .col1presentacion {
+        width: 300px;
+        height: 350px;
+        margin-left: 25px;
+        padding-inline-start: 1em;
+        margin-top: 60px;
+    }
+
+    .presentacion.col2presentacion {
+        width: 300px;
+        height:300px ;
+    
+    }
+
+    .presentacion .col2presentacion .fondo {
+
+        height: 400px;
+        width: 370px;
+        border-left: 150px solid transparent;
+        border-bottom: 450px solid #DEE1E6;
+        z-index: 1;
+    }
+
+    .presentacion .col2presentacion .img img{
+        height: 320px;
+        transform: translateX(-120px);
+        margin-top: 50px;
+    }
+
+ 
+
+
 }
