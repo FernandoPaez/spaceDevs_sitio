@@ -595,11 +595,12 @@ hr {
 
 /* Pagina Apps */
 .introduccion {
-    height: 375px;
+    height: 350px;
     width: 100%;
     font-family: 'Bebas Neue', cursive;
     display: grid;
     grid-template-columns: 50% 50%;
+
 }
 
 .marcointroduccion {
@@ -620,12 +621,12 @@ hr {
 /* cuadrados web */
 
 .recuadrosweb {
-    height: 615px;
-
-
+    height: 500px;
+    transform: translateY(0px);
 }
 
-.recuadrosweb .circuloweb {
+.recuadroweb .circuloweb {
+    display: none;
     width: 105px;
     height: 105px;
     border-radius: 50%;
@@ -635,15 +636,11 @@ hr {
     justify-content: center;
     transform: translateY(15px);
 
-
-
 }
 
 .recuadrosweb .fila1web {
     display: flex;
     justify-content: center;
-
-
 
 }
 
@@ -660,8 +657,7 @@ hr {
 }
 
 .cuadradoweb:hover {
-    height: 225px;
-    width: 225px;
+    background-color: #63686B;
     transition: all 0.5s;
 }
 
@@ -680,6 +676,7 @@ hr {
 .cuadradoweb .iconweb {
     height: 70px;
     width: auto;
+    transform: translateY(20px);
 }
 
 /* planes de pagopagina app */
@@ -723,7 +720,6 @@ hr {
 }
 
 .planes .fila2planes {
-
     display: flex;
     padding-top: 5%;
     padding-left: 20%;
@@ -750,8 +746,6 @@ hr {
     display: grid;
     grid-template-columns: 35% 65%;
     font-family: 'Bebas Neue', cursive;
-    ;
-
 }
 
 
@@ -763,7 +757,7 @@ hr {
 .pagos .col1pagos {
     display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 
 .pagos .col1pagos .marcopagos {
@@ -773,7 +767,7 @@ hr {
     align-items: flex-start;
     margin-top: 6em;
     margin-left: 30%;
-    width: 350px;
+    width: 300px;
 }
 
 .pagos .col2pagos {
@@ -1220,5 +1214,229 @@ hr {
     .footer .fila3foot h4 {
         font-size: 14px;
     }
+
+    /* Pagina app.html - Introduccion*/
+    .introduccion {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+
+    .marcointroduccion {
+        padding-top: 5em;
+        padding-left: 12%;
+        padding-right: 10%;
+    }
+
+    .marcointroduccion h1 {
+        font-size: 26px;
+    }
+
+
+
+    /* Recuadros Web */
+
+    .recuadrosweb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0%;
+        padding-right: 0%;
+        height: 480px;
+        transform: translateY(55px);
+
+    }
+
+    .recuadrosweb .fila1web {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-50px);
+        padding-right: 0%;
+    }
+
+    .cuadradoweb {
+        height: 150px;
+        width: 150px;
+        border-radius: 3%;
+
+    }
+
+    .fila1web .recuadrocuadrado {
+        padding: 5px;
+    }
+
+    .recuadrosweb .circuloweb {
+        height: 80px;
+        width: auto;
+        border-radius: 50%;
+        transform: translateY();
+
+    }
+
+    .cuadradoweb:hover {
+        height: 150px;
+        width: 150px;
+        background-color: #63686B;
+        transition: all 0.5s;
+    }
+
+    .cuadradoweb .iconweb {
+        height: 40px;
+        width: auto;
+    }
+
+    .cuadradoweb p {
+        padding: 0%;
+        font-size: 12px;
+
+
+    }
+
+    .cuadradoweb h5 {
+        font-size: 14px;
+
+    }
+
+    /* planes de pagopagina app */
+
+    .planes {
+
+        display: flex;
+
+        padding-top: 5%;
+        background-color: #DEE1E6;
+        padding-top: -2em;
+        transform: translateY(70px);
+
+    }
+
+    .planes {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        background-color: #DEE1E6;
+        padding-top: -2em;
+        transform: translateY(70px);
+
+    }
+
+    .planes .fila1planes {
+        padding-left: 12%;
+        padding-right: 10%;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+
+
+    }
+
+    .planes .fila1planes h1 {
+        font-size: 24px;
+    }
+
+    .planes .fila2planes {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+
+    }
+
+    .planes .fila2planes {
+        padding-left: 0%;
+
+    }
+
+
+    .planes .fila2planes .col2planes {
+        padding-left: 0%;
+    }
+
+    .pconsulta {
+        height: 40px;
+        width: 250px;
+        background-color: #64BFB0;
+        border-radius: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+        font-size: 18px;
+    }
+
+    /* Pagina de Pagos */
+    .pagos {
+
+        grid-template-columns: 1fr;
+        height: 600px;
+        align-items:center;
+        justify-content: center;
+       
+              
+    }
+
+    .pagos .col1pagos {
+        
+        display: flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+        width: 100%;
+        height: 400px;
+    }
+
+    .pagos .col1pagos .marcopagos {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 5em;
+        
+        
+    }
+    
+    .pagos .col1pagos .marcopagos p{
+        padding-right: 10%;
+    }
+
+    .pagos .fondopagos {
+        width: 100%;
+        height: 350px;
+        border-left: 100px solid transparent;
+        border-bottom: 350px solid #DEE1E6;
+        z-index: 1;
+    }
+
+    .marcoformapagos {
+       flex-direction: column;
+       align-items: flex-end;
+       padding-right: 20%;
+       padding-top: 25%;
+       justify-content: center;
+       transform:translateY(0px)
+    
+    }
+
+    .transferencias {
+        transform: translateY(150px);
+        height: 250px;
+        padding-top: 5px;
+       
+    }
+
+    .footer{
+        transform: translateY(150px);
+    }
+       
+   
+
+
+
+
+
 
 }
