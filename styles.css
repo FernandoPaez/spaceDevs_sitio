@@ -158,8 +158,8 @@ li.ico {
 
 .presentacion .col2presentacion .img img {
     height: 600px;
-    transform: translateX(-250px);
-    margin-top: 80px;
+    transform: translateX(-180px);
+    margin-top: -15px;
 
 
 }
@@ -306,7 +306,6 @@ li.ico {
 
 .fondo2 p {
     font-family: 'Bebas Neue', cursive;
-
 }
 
 /* Recuadros */
@@ -395,7 +394,6 @@ li.ico {
     color: black;
     font-size: 20px;
     display: grid;
-
     grid-template-columns: 30% 70%;
 }
 
@@ -418,7 +416,6 @@ li.ico {
     height: 570px;
     width: 100%;
     background-color: #151A28;
-
     display: flex;
     justify-content: center;
     padding: 2em;
@@ -554,6 +551,7 @@ li.ico {
     justify-content: left;
     padding-left: 10%;
     transform: translateY(-10px);
+
 }
 
 .footer .fila2foot h2 {
@@ -875,8 +873,8 @@ hr {
         transition: all 1s;
     }
 
-    .nav-main .hamburger-btn .menu-btn {
-        display: block;
+    .nav-main .hamburger-btn i:hover {
+        background-color: #64BFB0;
     }
 
     .nav-main .nav-menu ul {
@@ -944,13 +942,13 @@ hr {
 
     .presentacion .col2presentacion .img img {
         height: 350px;
-        transform: translateX(-240px);
+        transform: translateX(-150px);
         margin-top: 50px;
     }
 
     /* Servicios */
     .servicios {
-        height: 1250px;
+        height: 1150px;
     }
 
     .servicios .fil1 {
@@ -962,12 +960,13 @@ hr {
     }
 
     .servicios .fil2 {
-
         text-align: center;
         padding: 0em 2em 0em 2em;
-
     }
 
+    .servicios .fil2 h2 {
+        font-size: 20px;
+    }
 
     .servicios .fil1 .cuadrado {
         height: 240px;
@@ -1062,7 +1061,7 @@ hr {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding-top: 4em;
+        padding-top: 3em;
         gap: 1px;
 
     }
@@ -1114,10 +1113,112 @@ hr {
         transform: translateY(-25px);
     }
 
-   
+    /* Cuadrado Inferior */
+    .cuadroinferior {
+        height: 170px;
+    }
+
+    .cuadroinferior .fila1recuadro {
+        padding-left: 2em;
+    }
+
+    .cuadroinferior .fila1recuadro h1 {
+        font-size: 30px;
+    }
+
+    /* Recuadro Estadisticas */
+    .recestadisticas {
+        height: 700px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recestadisticas .col1estadisticas p {
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-top: 12%;
+        font-size: 16px;
+    }
+
+    .imgestadisticas {
+        height: 350px;
+        transform: translateX(70px);
+        transform: translateY(-20px);
+    }
+
+    /*Formulario  */
+    .recformulario {
+        height: 950px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .recformulario .col1formulario {
+        transform: translateX(0);
+    }
 
 
+    .recformulario .col2formulario {
+        padding: 2em;
+        transform: translateY();
+        font-size: 14px;
 
+    }
 
+    .recformulario .col1formulario .boxformulario {
+        width: 300px;
+        height: 450px;
+        border-radius: 3%;
+        padding-top: 1em;
+        padding-left: 0;
+    }
+
+    /* Footer */
+
+    .footer {
+        height: 450px;
+    }
+
+    .footer .fila1foot {
+        flex-direction: column;
+        padding-top: 8em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .fila1foot img {
+        height: 40px;
+        transform: translateY(-45px);
+
+    }
+
+    .footer .fila1foot .seccion {
+        gap: 1em;
+        font-size: 12px;
+    }
+
+    .footer .fila2foot {
+        transform: translateY();
+        padding-top: 3em;
+    }
+
+    .footer .fila2foot h2 {
+        font-size: 18px;
+    }
+
+    .footer hr {
+        transform: translateY(-10px);
+    }
+
+    .footer .fila3foot {
+        transform: translateY(-30px);
+    }
+
+    .footer .fila3foot h4 {
+        font-size: 14px;
+    }
 
 }
