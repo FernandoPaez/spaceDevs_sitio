@@ -319,6 +319,8 @@ li.ico {
     background-color: #1E2738;
 }
 
+
+
 .recuadrocuadrado {
     padding: 1em;
 }
@@ -393,7 +395,7 @@ li.ico {
 
 /* recuadro estadisticas */
 .recestadisticas {
-    height: 395px;
+    height: 500px;
     background-color: white;
     color: black;
     font-size: 20px;
@@ -1177,6 +1179,7 @@ hr {
 
     .footer {
         height: 450px;
+        transform: translateY(-200px);
     }
 
     .footer .fila1foot {
@@ -1226,10 +1229,6 @@ hr {
 
     }
 
-
-
-
-
     .marcointroduccion {
         padding-top: 5em;
         padding-left: 12%;
@@ -1239,8 +1238,6 @@ hr {
     .marcointroduccion h1 {
         font-size: 26px;
     }
-
-
 
     /* Recuadros Web */
 
@@ -1428,9 +1425,21 @@ hr {
 
     .transferencias {
         transform: translateY(150px);
-        height: 250px;
+        height: 200px;
         padding-top: 5px;
        
+    }
+
+    .transferencias .fila1transferencias{
+        padding-top: 2em;
+    }
+
+    .transferencias .fila1transferencias h1{
+        font-size: 20px;
+    }
+
+    .transferencias .fila1transferencias p{
+        font-size: 14px;
     }
 
     .footer{

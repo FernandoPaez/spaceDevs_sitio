@@ -11,95 +11,112 @@ ScrollReveal().reveal('.col1presentacion', {
     origin: 'bottom',
     distance: '100px',
 });
+
 ScrollReveal().reveal('.col2presentacion', {
     duration: 4000,
     origin: 'right',
     distance: '300px',
 });
 
-ScrollReveal().reveal('.servicios', {
+
+
+ScrollReveal().reveal('.cuadrado', {
+    duration: 500,
+    origin: 'bottom',
+    distance: '200px',
+});
+
+ScrollReveal().reveal('.textcuadrado', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '300px',
+});
+
+ScrollReveal().reveal('.fil2', {
     duration: 3000,
+    origin: 'bottom',
+    distance: '300px',
 });
 
 ScrollReveal().reveal('.consulta', {
-    duration: 3000,
+    duration: 2000,
     origin: 'bottom',
     distance: '300px',
 });
 
 ScrollReveal().reveal('.fondo2', {
-    duration: 3000,
+    duration: 2000,
     origin: 'right',
     distance: '300px',
 });
 
 ScrollReveal().reveal('.recuadrocuadrado', {
-    duration: 3000,
+    duration: 1000,
     origin: 'bottom',
     distance: '300px',
 });
 
 ScrollReveal().reveal('.cuadroinferior', {
-    duration: 4000,
+    duration: 3000,
     origin: 'bottom',
     distance: '300px',
 
 });
 
 ScrollReveal().reveal('.imgestadisticas', {
-    duration: 4000,
+    duration: 3000,
     origin: 'right',
     distance: '300px',
 });
 
 ScrollReveal().reveal('.col1estadisticas', {
-    duration: 4000,
-    
+    duration: 3000,
+
 });
 
 ScrollReveal().reveal('.recformulario', {
-    duration: 4000,
-    
+    duration: 3000,
+
 });
 
 ScrollReveal().reveal('.footer', {
-    duration: 4000,
+    duration: 3000,
     origin: 'bottom',
     distance: '300px',
 
 });
 
 ScrollReveal().reveal('.marcointroduccion', {
-    duration: 4000,
-    
+    duration: 3000,
+
 });
 
 
 ScrollReveal().reveal('.planes', {
-    duration: 4000,
+    duration: 2000,
     origin: 'bottom',
     distance: '300px',
 
 });
 
 ScrollReveal().reveal('.marcopagos', {
-    duration: 4000,
+    duration: 3000,
     origin: 'left',
     distance: '300px',
 
 });
 
 ScrollReveal().reveal('.fondopagos', {
-    duration: 4000,
+    duration: 3000,
     origin: 'right',
     distance: '300px',
 
 });
 ScrollReveal().reveal('.transferencias', {
-    duration: 5000,
+    duration: 3500,
     origin: 'bottom',
     distance: '300px',
-    
+
 
 });
 
