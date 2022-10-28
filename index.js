@@ -21,16 +21,11 @@ ScrollReveal().reveal('.col2presentacion', {
 
 
 ScrollReveal().reveal('.cuadrado', {
-    duration: 500,
-    origin: 'bottom',
-    distance: '200px',
+    duration: 500
+    
 });
 
-ScrollReveal().reveal('.textcuadrado', {
-    duration: 2000,
-    origin: 'bottom',
-    distance: '300px',
-});
+
 
 ScrollReveal().reveal('.fil2', {
     duration: 3000,
