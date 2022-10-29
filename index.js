@@ -6,6 +6,7 @@ document.querySelector(".menu-btn").addEventListener('click', () => {
 })
 /* Animaciones */
 ScrollReveal().reveal('.nav-main', { duration: 3000 });
+
 ScrollReveal().reveal('.col1presentacion', {
     duration: 3000,
     origin: 'bottom',
@@ -18,20 +19,13 @@ ScrollReveal().reveal('.col2presentacion', {
     distance: '300px',
 });
 
-
-
-ScrollReveal().reveal('.cuadrado', {
-    duration: 500
-    
-});
-
-
-
-ScrollReveal().reveal('.fil2', {
-    duration: 3000,
-    origin: 'bottom',
+ScrollReveal().reveal('.servicios', {
+    duration: 2000,
+    origin: 'top',
     distance: '300px',
 });
+
+
 
 ScrollReveal().reveal('.consulta', {
     duration: 2000,
@@ -47,8 +41,7 @@ ScrollReveal().reveal('.fondo2', {
 
 ScrollReveal().reveal('.recuadrocuadrado', {
     duration: 1000,
-    origin: 'bottom',
-    distance: '300px',
+  
 });
 
 ScrollReveal().reveal('.cuadroinferior', {
