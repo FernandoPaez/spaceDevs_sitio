@@ -15,6 +15,7 @@ body {
     font-family: 'Inter Tight', sans-serif;
     background-color: whitesmoke;
     padding: 0px;
+    margin :0%;
 }
 
 a {
@@ -24,6 +25,10 @@ a {
 
 ul {
     list-style: none;
+}
+
+.head{
+    height: 60px;
 }
 
 
@@ -63,6 +68,10 @@ ul {
     align-items: center;
 }
 
+.nav-menu{
+    display: none;
+}
+
 
 .nav-menu li {
     height: 25px;
@@ -91,7 +100,7 @@ li.ico {
     font-size: 16px;
 }
 
-;
+
 
 
 
@@ -131,6 +140,8 @@ li.ico {
     margin-left: 90px;
     margin-top: 90px;
     height: 500px;
+    position: relative;
+   
 
 }
 

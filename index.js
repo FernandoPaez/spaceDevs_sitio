@@ -20,9 +20,19 @@ ScrollReveal().reveal('.col2presentacion', {
 });
 
 ScrollReveal().reveal('.servicios', {
-    duration: 2000,
+    duration: 500,
+    
+});
+
+ScrollReveal().reveal('.cuadrado', {
+    duration: 500,
     origin: 'top',
-    distance: '300px',
+    distance: '70px',
+});
+ScrollReveal().reveal('.servicios .fil2', {
+    duration: 500,
+    origin: 'top',
+    distance: '100px',
 });
 
 
@@ -30,13 +40,13 @@ ScrollReveal().reveal('.servicios', {
 ScrollReveal().reveal('.consulta', {
     duration: 2000,
     origin: 'bottom',
-    distance: '300px',
+    distance: '100px',
 });
 
 ScrollReveal().reveal('.fondo2', {
     duration: 2000,
     origin: 'right',
-    distance: '300px',
+    distance: '100px',
 });
 
 ScrollReveal().reveal('.recuadrocuadrado', {
@@ -47,14 +57,14 @@ ScrollReveal().reveal('.recuadrocuadrado', {
 ScrollReveal().reveal('.cuadroinferior', {
     duration: 3000,
     origin: 'bottom',
-    distance: '300px',
+    distance: '100px',
 
 });
 
 ScrollReveal().reveal('.imgestadisticas', {
     duration: 3000,
     origin: 'right',
-    distance: '300px',
+    distance: '100px',
 });
 
 ScrollReveal().reveal('.col1estadisticas', {
@@ -63,14 +73,14 @@ ScrollReveal().reveal('.col1estadisticas', {
 });
 
 ScrollReveal().reveal('.recformulario', {
-    duration: 3000,
+    duration: 2000,
 
 });
 
 ScrollReveal().reveal('.footer', {
     duration: 3000,
     origin: 'bottom',
-    distance: '300px',
+    distance: '200px',
 
 });
 
